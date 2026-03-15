@@ -6,8 +6,8 @@ import joblib
 import streamlit as st
 
 #loading model and encoder
-model = joblib.load("models/anemia_model.pkl")
-ct = joblib.load("models/anemia_encoder.pkl")
+model = joblib.load("anemia_model.pkl")
+ct = joblib.load("anemia_encoder.pkl")
 
 #converting to streamlit
 name = "Sadiq Inuwa"
