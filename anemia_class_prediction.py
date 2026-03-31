@@ -12,7 +12,7 @@ ct = joblib.load("anemia_encoder.pkl")
 #converting to streamlit
 name = "AIToolForge Technology"
 goal = "1.To predicts a particular class of anemia from the provided clinical values. 2.To confirm the legitimates of a test result !"
-st.logo("IMG_0029.jpg")
+
 st.sidebar.title("ABOUT US!")
 st.sidebar.caption(f"Developer: {name}.")
 st.sidebar.title("CONTACTS CEO...")
