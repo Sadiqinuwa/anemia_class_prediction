@@ -10,14 +10,14 @@ model = joblib.load("anemia_model.pkl")
 ct = joblib.load("anemia_encoder.pkl")
 
 #converting to streamlit
-name = "Sadiq Inuwa"
+name = "AIToolForge Technology"
 goal = "1.To predicts a particular class of anemia from the provided clinical values. 2.To confirm the legitimates of a test result !"
 st.logo("IMG_0029.jpg")
 st.sidebar.title("ABOUT US!")
 st.sidebar.caption(f"Developer: {name}.")
-st.sidebar.title("CONTACTS US...")
+st.sidebar.title("CONTACTS CEO...")
 st.sidebar.link_button("facebook", 'https://www.facebook.com/sadeeq.alhinuwa')
-st.sidebar.link_button("email", 'sadiqinuwa6@gmail.com')
+st.sidebar.link_button("email", 'mailto:sadiqinuwa6@gmail.com')
 st.sidebar.link_button("WhatsApp", 'https://wa.me/2347067717477')
 st.title("ANEMIA CLASS PREDICTION")
 st.caption(f"GOAL: {goal}")
